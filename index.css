@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    
+}
+
+.attribution {color: white; font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(0, 0%, 98%); }
+    body{
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: hsl(0, 0%, 8%);
+    }
+    .container{
+        margin-top: 5%;
+        border-radius: 20px;
+        background-color: hsl(0, 0%, 12%);
+        width: 50vh;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nameContainer{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .buttonContainer{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .imageContainer{
+        width: 15vh;
+    }
+    img{
+        width: 100%;
+        border-radius: 50%;
+    }
+    .Name{
+        color: white;
+    }
+    .paragraph{
+        margin-top: 20px;
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.778);
+        
+    }
+    .nameSubOne{
+        color:  hsl(75, 94%, 57%);
+        margin-top: 7px;
+    }
+    .btn{
+        text-align: center;
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: hsl(0, 0%, 20%);
+        color: white;
+        cursor: pointer;
+    }
+    .btn:hover{
+        color: black;
+        background-color:hsl(75, 94%, 57%);
+    }
